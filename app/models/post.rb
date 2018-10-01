@@ -1,4 +1,4 @@
 class Post < ActiveRecord::Base
   belongs_to :category
-  belongs_to :posts
+  belongs_to :author
 end
